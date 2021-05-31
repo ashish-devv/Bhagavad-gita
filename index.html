@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The Shrimad Bhagavad Gita, often referred to as the Gita, is a 700-verse Hindu scripture that is part of the epic Mahabharata, dated to the first millennium BCE. It is considered to be one of the main holy scriptures for Hinduism"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bhagavad Gita</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/bhagavad-gita.png"
+            alt=""
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          Bhagavad Gita</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">More Shloks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Get Shlok Via Email</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- first half -->
+        <div class="col-sm-6">
+          <img
+            src="img/524 [Converted].svg"
+            class="img-fluid"
+            alt=""
+            srcset=""
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          />
+        </div>
+        <!-- second half -->
+        <div class="col-sm-6">
+          <h1 class="display-1 text-center mt-4">
+            <img
+              src="img/bhagavad-gita.png"
+              alt=""
+              width="60"
+              height="60"
+            />Bhagavad Gita
+          </h1>
+          <div
+            class="card mt-4 p-2 mb-4"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <div class="card-header text-center">Shlok Of The Day</div>
+            <div class="card-body mt-4 pt-4">
+              <div class="card-text">
+                <figure class="text-center">
+                  <blockquote class="blockquote">
+                    <p class="">
+                      ।।4.9।। हे अर्जुन ! मेरा जन्म और कर्म दिव्य है, इस प्रकार
+                      जो पुरुष तत्त्वत: जानता है, वह शरीर को त्यागकर फिर जन्म को
+                      नहीं प्राप्त होता; वह मुझे ही प्राप्त होता है।।
+                    </p>
+                  </blockquote>
+                  <blockquote class="blockquote">
+                    <p class="">
+                      He who thus knows truly the divine birth and actions of
+                      Mine does not get rirth after casting off the body. He
+                      attains Me, O Arjuna.
+                    </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer mt-4 pt-4">
+                    Bhagavad Gita
+                    <cite title="Source Title">Chapter</cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-4 pt-4" style="font-size: xx-large">
+            <button class="btn btn-outline-danger m-4 text-center">
+              <i class="fas fa-sync fa-spin"></i> Another Shlok
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-4">
+      <h1 class="display-5 text-center mt-3">
+        Daily get a Shlok on Your Email.
+      </h1>
+      <div
+        class="card text-center"
+        data-aos="zoom-out-up"
+        data-aos-duration="2000"
+      >
+        <div class="card-title mt-4">
+          Enter Your Email to Get a bhagavad-gita Shlok On Your Email
+        </div>
+        <div class="card-body">
+          <p>
+            <input
+              type="text"
+              class="form-control text-center"
+              placeholder="Your Email Here"
+              title="Enter Email here"
+              required
+            />
+            <button class="btn btn-primary mt-4">Submit</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light mt-4">
+      <div class="container">
+        <span class="text"
+          >Made with 💖 By
+          <a href="https://github.com/ashish-devv">Ashish</a> in India. .
+          <a href="https://www.facebook.com/ashishkrfab/" class="text-muted"
+            ><i class="fab fa-facebook"></i> facebook</a
+          >,
+          <a href="https://www.instagram.com/ashish.exe/" class="text-muted"
+            ><i class="fab fa-instagram"> </i> Instagram</a
+          >
+          ,<a href="https://github.com/ashish-devv" class="text-muted"
+            ><i class="fab fa-github"></i> Github</a
+          ></span
+        >
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

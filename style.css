@@ -1,0 +1,13 @@
+* {
+  font-family: "Poppins";
+}
+
+.card {
+  box-shadow: 0 19px 38px rgba(218, 58, 9, 0.212),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover {
+  box-shadow: 0 1px 3px rgba(253, 2, 2, 0.281), 0 1px 2px rgba(241, 8, 8, 0.486);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
